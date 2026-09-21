@@ -17,7 +17,7 @@ From the given data we can tell that there are seven fields in the data log whic
 
 According to the logs we can tell that there are three scenarios in the log data, one is the normal INFO output which confirms that the payment has been successfully done and the other two are ERROR messages one for 'Payment servuce timout' and other for the 'Database connection timeout'.
 
-By executing the pipeline we can see that the pipeline is reading all the logs and is able to identify all the present anomalies in the log file. But the pipeline is not able to show the detected events and also its not consuming and projecting the events that is being detected. Now the code detects 2 number of anomalies.
+By executing the pipeline we can see that the pipeline is reading all the logs and is able to identify all the present anomalies in the log file. But the pipeline is not able to show the detected events and also its not consuming and projecting the events that is being detected. Now the code detects 2 number of anomalies. Now after checking and correcting the files anomaly-detector.py and the aiops_pipeline.py we can see that noe the events are correctly being produced, anomalies are detected and the topics are being consumed sucessfully.
 
 &copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 
